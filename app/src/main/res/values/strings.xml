@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Quiz room</string>
+    <string name="question_one">Ques-1) What does HTML stands for?</string>
+    <string name="ques_one_choice_one">How To Meat Ladies</string>
+    <string name="ques_one_choice_two">Hyper Text Markup Language</string>
+    <string name="question_two">Ques-2) Latest two android version?</string>
+    <string name="question_two_choice_one">Android M</string>
+    <string name="question_two_choice_two">Android L</string>
+    <string name="question_two_choice_three">Android N</string>
+    <string name="question_two_choice_four">Android K</string>
+    <string name="question_three">Ques-3) What is the name of Latest Android version?</string>
+    <string name="android_name_hint">Name of latest android</string>
+    <string name="question_four">Ques-4) What is the name of the app?</string>
+    <string name="app_name_hints">Name of Application</string>
+    <string name="question_five">Ques-5)Write the name of Android C ?</string>
+    <string name="android_c_hint">Android C name</string>
+    <string name="submit_answer">Get Score</string>
+</resources>

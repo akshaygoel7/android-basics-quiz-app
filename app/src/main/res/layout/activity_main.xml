@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.quizroom.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <TextView
+            style="@style/QuestionTextView"
+            android:text="@string/question_one" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ques_one_choice_one" />
+
+            <RadioButton
+                android:id="@+id/answerOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ques_one_choice_two" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/QuestionTextView"
+            android:text="@string/question_two" />
+
+        <CheckBox
+            android:id="@+id/answerTwoOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_two_choice_one" />
+
+        <CheckBox
+            android:id="@+id/answerTwoTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_two_choice_two" />
+
+        <CheckBox
+            android:id="@+id/answerTwoThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_two_choice_three" />
+
+        <CheckBox
+            android:id="@+id/answerTwoFour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_two_choice_four" />
+
+        <TextView
+            style="@style/QuestionTextView"
+            android:text="@string/question_three" />
+
+        <EditText
+            android:id="@+id/answerThree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/android_name_hint" />
+
+        <TextView
+            style="@style/QuestionTextView"
+            android:text="@string/question_four" />
+
+        <EditText
+            android:id="@+id/answerFour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/app_name_hints" />
+
+        <TextView
+            style="@style/QuestionTextView"
+            android:text="@string/question_five" />
+
+        <EditText
+            android:id="@+id/answerFive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/android_c_hint" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:onClick="getScore"
+            android:text="@string/submit_answer" />
+
+    </LinearLayout>
+
+</ScrollView>
